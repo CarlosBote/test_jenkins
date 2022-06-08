@@ -1,0 +1,31 @@
+# ============================================================================
+# PYTHON PACKAGE REQUIREMENTS:
+# ============================================================================
+# REQUIRES: Python >= 2.7.11
+# DESCRIPTION:
+#    pip install -r <THIS_FILE>
+#
+# SPECIFIC DEPENDENCIES:
+#   behave  -- BDD test framework, cucumber-clone for Python.
+#   selenium -- To drive the browser tests
+#   PyHamcrest -- For assertions: assert_that(expected, equal_to(actual))
+#   PyYAML -- For working with yaml files
+#   mysql-connector -- Enables Python programs to access MySQL databases
+#
+# MAYBE:
+#   nose:       for assertions: eq_(x, y)
+#   pytest:     for assertions
+# ============================================================================
+
+PyYAML >= 3.11
+behave >= 1.2.5
+parse >= 1.6.3
+parse_type >= 0.3.4
+selenium >= 2.53.1
+argparse >= 1.4.0
+PyHamcrest >= 1.8
+mysql-connector==2.2.9
+allure-behave >=2.9.45
+screenpy==4.0.0
+screenpy-selenium==4.0.1
+
